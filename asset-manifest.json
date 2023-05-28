@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/radio-online/static/css/main.073c9b0a.css",
-    "main.js": "/radio-online/static/js/main.607c0175.js",
+    "main.js": "/radio-online/static/js/main.8f8eba9e.js",
     "static/js/787.a223629a.chunk.js": "/radio-online/static/js/787.a223629a.chunk.js",
     "index.html": "/radio-online/index.html",
     "main.073c9b0a.css.map": "/radio-online/static/css/main.073c9b0a.css.map",
-    "main.607c0175.js.map": "/radio-online/static/js/main.607c0175.js.map",
+    "main.8f8eba9e.js.map": "/radio-online/static/js/main.8f8eba9e.js.map",
     "787.a223629a.chunk.js.map": "/radio-online/static/js/787.a223629a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.607c0175.js"
+    "static/js/main.8f8eba9e.js"
   ]
 }
