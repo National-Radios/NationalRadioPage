@@ -3,64 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="National Radios - Your destination for high-quality radio streaming apps.">
-    <title>National Radios</title>
+    <title>National Radios - Stream Your Favorite Stations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            font-family: 'Poppins', sans-serif;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 50px 10px;
-        }
-        header h1 {
-            font-size: 2.5rem;
-            margin: 0;
-        }
-        header p {
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-        }
-        .svg-container {
-            display: flex;
-            justify-content: center;
-            margin: 30px 0;
-        }
-        .svg-container svg {
-            width: 150px;
-            height: 150px;
+        .gradient-bg {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
         }
     </style>
 </head>
-<body>
-    <header>
-        <h1>Welcome to National Radios</h1>
-        <p>Delivering the best radio streaming experience through innovative apps.</p>
-    </header>
-    <div class="svg-container">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#4CAF50">
-            <circle cx="32" cy="32" r="30" stroke="#333" stroke-width="2" fill="none" />
-            <path d="M20 32a12 12 0 0124 0 12 12 0 01-24 0z" fill="#4CAF50" />
-            <rect x="28" y="28" width="8" height="8" fill="#fff" />
-        </svg>
+<body class="bg-gradient-to-br from-purple-600 to-blue-500 text-white">
+    <div class="container mx-auto px-4 py-16">
+        <header class="text-center mb-16">
+            <h1 class="text-5xl font-bold mb-4 text-white drop-shadow-lg">National Radios</h1>
+            <p class="text-xl text-white/90 max-w-2xl mx-auto">
+                Discover, stream, and enjoy radio stations from across the nation with just a tap.
+            </p>
+        </header>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center bg-white/10 backdrop-blur-lg rounded-2xl p-12">
+            <div>
+                <h2 class="text-3xl font-semibold mb-6 text-white">Stream Anywhere, Anytime</h2>
+                <ul class="space-y-4 mb-8">
+                    <li class="flex items-center text-white/90">
+                        <svg class="w-6 h-6 text-yellow-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span>200+ Radio Stations Nationwide</span>
+                    </li>
+                    <li class="flex items-center text-white/90">
+                        <svg class="w-6 h-6 text-green-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span>High-Quality Streaming</span>
+                    </li>
+                    <li class="flex items-center text-white/90">
+                        <svg class="w-6 h-6 text-red-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <span>Available on iOS and Android</span>
+                    </li>
+                </ul>
+                <div class="flex space-x-4">
+                    <a href="#" class="bg-yellow-500 text-black px-6 py-3 rounded-lg hover:bg-yellow-600 transition transform hover:-translate-y-1 shadow-lg">
+                        Download App
+                    </a>
+                    <a href="#" class="border border-white text-white px-6 py-3 rounded-lg hover:bg-white/10 transition transform hover:-translate-y-1">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <img src="/api/placeholder/400/600" alt="National Radios App" class="rounded-lg shadow-2xl transform hover:scale-105 transition duration-300">
+            </div>
+        </div>
+
+        <section class="text-center mt-24 bg-white/10 backdrop-blur-lg py-16 rounded-2xl">
+            <h2 class="text-3xl font-semibold mb-8 text-white">Why Choose National Radios?</h2>
+            <div class="grid md:grid-cols-3 gap-8 px-8">
+                <div>
+                    <svg class="w-12 h-12 mx-auto mb-4 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Diverse Stations</h3>
+                    <p class="text-white/80">From news to music, we have stations for every taste.</p>
+                </div>
+                <div>
+                    <svg class="w-12 h-12 mx-auto mb-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Easy to Use</h3>
+                    <p class="text-white/80">Intuitive interface for seamless listening.</p>
+                </div>
+                <div>
+                    <svg class="w-12 h-12 mx-auto mb-4 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Always Updated</h3>
+                    <p class="text-white/80">Regular updates with new stations and features.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-16 py-8">
+            <p class="text-white/70">&copy; 2024 National Radios. All rights reserved.</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; 2024 National Radios. All rights reserved.</p>
-    </footer>
 </body>
 </html>
