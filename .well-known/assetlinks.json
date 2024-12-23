@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.nationalradios.portugal",
+      "sha256_cert_fingerprints": [
+        "46:A3:EC:F5:1E:7B:E0:64:E9:40:4F:88:D5:60:C4:C8:6F:B6:16:D3:09:E6:B7:86:9B:93:DE:AB:19:B1:6D:62"
+      ]
+    }
+  }
+]
